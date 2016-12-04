@@ -1,5 +1,5 @@
 package com.aurotech.mvc.servlet;
-
+   
 import javax.servlet.Servlet;
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
@@ -11,7 +11,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import com.aurotech.tools.SpringBeanContext;
 
 /**
- * Servlet implementation class OnLoadServlet
+ *     Servlet implementation class OnLoadServlet
  */
 public class OnLoadServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
