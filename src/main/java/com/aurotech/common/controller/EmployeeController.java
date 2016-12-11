@@ -35,7 +35,7 @@ public class EmployeeController {
 		 EmployeeDao emp = (EmployeeDaoImpl)context.getBean("employeeTemplate");
 		 Employee emp2 = emp.getEmployee(Integer.valueOf(id));
 		 System.out.println(emp2);
-		return emp2;
+		return emp2 ;
 
 	}
 	
@@ -68,5 +68,5 @@ public class EmployeeController {
 	List<Employee>  getAllEmpInDeptJSON(@PathVariable String deptId) {
 		return null;
 	}
-
+       
 }
